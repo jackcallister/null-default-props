@@ -1,0 +1,16 @@
+{
+  "name": "null-default-props",
+  "version": "0.0.2",
+  "description": "Set prop defaults for React components when null values are given.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "props",
+    "null"
+  ],
+  "author": "Jack Callister",
+  "license": "ISC"
+}
