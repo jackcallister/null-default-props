@@ -11,6 +11,15 @@
     "props",
     "null"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jarsbe/null-default-props.git"
+  },
+  "author": "Jack Callister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarsbe/null-default-props/issues"
+  },
   "author": "Jack Callister",
   "license": "ISC"
 }
