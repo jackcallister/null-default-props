@@ -31,7 +31,7 @@ var Component = React.createClass({
 
 ## Usage
 
-To solve this problem mixin `null-default-props` and implement getNullDefaultProps.
+To solve this problem mixin `null-default-props` and implement `getNullDefaultProps`.
 
 ```
 var React = require('react'),
@@ -62,3 +62,7 @@ var Component = React.createClass({
 // => <h1>Default value</h1>
 
 ```
+
+## Notes
+
+There's no support for mixins when using React with ES6 classes. Instead the React team are working on making it easy to support such use casses without mixins. Until then `createClass` is the necessary method for using mixins with your components.
