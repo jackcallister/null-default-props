@@ -1,6 +1,6 @@
 {
   "name": "null-default-props",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Set prop defaults for React components when null values are given.",
   "main": "index.js",
   "scripts": {
