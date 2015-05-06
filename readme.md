@@ -11,15 +11,17 @@ var React = require('react');
 
 var Component = React.createClass({
   getDefaultProps: function() {
-    prop: 'Default Value'
+    return {
+      myProp: 'Default Value'
+    }
   },
 
   render: function(){
-    return <h1>{this.props.prop}</h1>;
+    return <h1>{this.props.myProp}</h1>;
   }
 })
 
-<Component prop={null} />
+<Component myProp={null} />
 
 // => <h1></h1>
 
@@ -41,19 +43,23 @@ var Component = React.createClass({
   mixins: [nullDefaultProps],
 
   getDefaultProps: function() {
-    prop: 'Default Value'
+    return {
+      myProp: 'Default Value'
+    }
   },
 
-  getDefaultNullProps: function() {
-    prop: 'Default Value'
+  getNullDefaultProps: function() {
+    return {
+      myProp: 'Default Value'
+    }
   },
 
   render: function(){
-    return <h1>{this.props.prop}</h1>;
+    return <h1>{this.props.myProp}</h1>;
   }
 })
 
-<Component prop={null} />
+<Component myProp={null} />
 
 // => <h1>Default value</h1>
 
